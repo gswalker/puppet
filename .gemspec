@@ -13,7 +13,7 @@
 
 Gem::Specification.new do |s|
   s.name = "puppet"
-  version = "5.3.3"
+  version = "5.3.4 [mergeup testing: version from 5.3.x]"
   mdata = version.match(/(\d+\.\d+\.\d+)/)
   s.version = mdata ? mdata[1] : version
 
